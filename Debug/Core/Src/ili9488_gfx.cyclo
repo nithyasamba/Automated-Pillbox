@@ -1,0 +1,6 @@
+../Core/Src/ili9488_gfx.c:5:6:ILI9488_DrawChar	6
+../Core/Src/ili9488_gfx.c:25:6:ILI9488_DrawString	2
+../Core/Src/ili9488_gfx.c:37:6:ILI9488_DrawStringCentered	4
+../Core/Src/ili9488_gfx.c:54:6:ILI9488_FillRoundRect	3
+../Core/Src/ili9488_gfx.c:80:6:ILI9488_DrawHLine	1
+../Core/Src/ili9488_gfx.c:86:6:ILI9488_DrawVLine	1

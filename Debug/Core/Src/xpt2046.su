@@ -1,0 +1,7 @@
+../Core/Src/xpt2046.c:6:16:spi2_transfer	32	static
+../Core/Src/xpt2046.c:14:17:read_channel	24	static
+../Core/Src/xpt2046.c:40:17:read_channel_median	56	dynamic
+../Core/Src/xpt2046.c:59:17:map_value	40	static
+../Core/Src/xpt2046.c:85:6:XPT2046_Init	8	static
+../Core/Src/xpt2046.c:92:9:XPT2046_IsTouched	8	static
+../Core/Src/xpt2046.c:98:6:XPT2046_GetTouch	32	static

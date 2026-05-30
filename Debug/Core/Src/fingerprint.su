@@ -1,0 +1,8 @@
+../Core/Src/fingerprint.c:3:6:Fingerprint_Init	16	static
+../Core/Src/fingerprint.c:7:13:sendPacket	48	static
+../Core/Src/fingerprint.c:22:9:Fingerprint_GetImage	32	static
+../Core/Src/fingerprint.c:33:9:Fingerprint_Image2Tz	32	static
+../Core/Src/fingerprint.c:41:9:Fingerprint_RegModel	32	static
+../Core/Src/fingerprint.c:49:9:Fingerprint_Store	32	static
+../Core/Src/fingerprint.c:57:9:Fingerprint_FastSearch	40	static
+../Core/Src/fingerprint.c:74:9:Fingerprint_EmptyDatabase	32	static

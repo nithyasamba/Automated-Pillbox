@@ -1,0 +1,9 @@
+../Core/Src/ili9488.c:3:13:spi_write_byte	1
+../Core/Src/ili9488.c:8:13:write_cmd	1
+../Core/Src/ili9488.c:16:13:write_data	1
+../Core/Src/ili9488.c:24:6:set_address_window	1
+../Core/Src/ili9488.c:41:6:ILI9488_Init	1
+../Core/Src/ili9488.c:133:6:ILI9488_DrawPixel	3
+../Core/Src/ili9488.c:147:6:ILI9488_FillRect	7
+../Core/Src/ili9488.c:175:6:ILI9488_FillScreen	1
+../Core/Src/ili9488.c:181:6:ILI9488_SetRotation	5
