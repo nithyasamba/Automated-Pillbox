@@ -1,2 +1,2 @@
-# Automated-Pillbox--EECS-373-Final-Project
+# automated-pillbox
 Embedded systems project featuring biometric authentication, automated medication dispensing, and real-time monitoring.
