@@ -1,6 +1,6 @@
 # automated-pillbox
 
-An embedded medication-management system that dispenses the right dose at the right time, gates access behind biometric and PIN authentication, and tracks adherence — built on an STM32 Nucleo (Cortex-M4) board.
+An embedded medication-management system that dispenses the right dose at the right time, gates access behind biometric and PIN authentication, and tracks adherence, built on an STM32 Nucleo (Cortex-M4) board.
 
 **Demo**
 https://www.youtube.com/watch?v=wKqTfHsi4G4
