@@ -18,8 +18,16 @@ This project is an automated pillbox that brings those together. A rotating tray
 - Audible alarm played from the SD card through a speaker at scheduled dose times
 
 **Hardware & Interfaces**
-ComponentInterfaceRoleSTM32 Nucleo (Cortex-M4)—Main controllerTFT touchscreen (ILI9488)SPIUI, status, scheduling, statsFingerprint sensorUARTBiometric authenticationKeypadGPIOPIN authentication / inputStepper motor (12V)PWM → driverRotates the tray to dispense pillsSolenoid deadbolt (12V)GPIOLocks/unlocks the lid for refillsSD card + speakerSPIStored audio alarm playbackRTC—Real-time scheduling of doses
-Security note: fingerprint biometric data is never stored on the main MCU — it lives only on the fingerprint module's own controller, so the host firmware only ever sees match/no-match results.
+- STM32 Nucleo (Cortex-M4): Main system controller responsible for coordinating all device functions.
+- TFT Touchscreen (ILI9488) – SPI: Provides the user interface for scheduling medications, viewing system status, and accessing dispensing statistics.
+- Fingerprint Sensor (UART): Handles biometric authentication for secure access.
+- Keypad (GPIO): Allows users to enter PINs and interact with the system.
+- Stepper Motor (12V) – PWM via motor driver: Rotates the dispensing tray to release the correct medication.
+- Solenoid Deadbolt (12V) – GPIO: Locks and unlocks the refill compartment to prevent unauthorized access.
+- SD Card and Speaker (SPI): Stores and plays audio alarms and notifications.
+- Real-Time Clock (RTC): Maintains accurate date and time information for medication scheduling.
+
+Security: Fingerprint templates are stored exclusively on the fingerprint sensor's onboard controller. The STM32 never stores or processes biometric data directly and only receives authentication results (match or no match).
 
 
 **Tech Stack**
