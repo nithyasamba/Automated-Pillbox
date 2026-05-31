@@ -29,6 +29,3 @@ Peripherals: SPI, UART, GPIO, PWM, RTC
 Tools: STM32CubeIDE, 3D-printed enclosure
 
 
-Working video: https://www.youtube.com/watch?v=wKqTfHsi4G4
-
-
